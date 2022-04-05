@@ -28,7 +28,9 @@ public class Model {
 
 		return migliore;	
 	}
-
+	/*
+	 * COMPLESSITA' 2^n
+	 */
 	private void cerca2(Set<Esame> parziale, int L, int m) {
 		// Controllare i casi terminali
 		int sommaCrediti = sommaCrediti(parziale);
@@ -64,6 +66,7 @@ public class Model {
 	/*
 	 * COMPLESSITA' N!
 	 */
+	@SuppressWarnings("unused")
 	private void cerca1(Set<Esame> parziale, int L, int m) {
 		
 		// Controllare i casi terminali
